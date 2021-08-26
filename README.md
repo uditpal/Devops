@@ -1,3 +1,3 @@
 # Devops
 
-![App Screenshot](screenshot 1.jpg)
+![App Screenshot](Screenshot 1.png)
