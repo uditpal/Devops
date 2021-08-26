@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// Change 1.....
+// Change By m1....
 void merge(vector<int> &arr, int s,int e){
   int i=s;
   int m=(s+e)/2;
@@ -33,7 +33,7 @@ void merge(vector<int> &arr, int s,int e){
   return;
 
 }
-// Change 2......
+// Change @222
 void mergesort(vector<int> &arr,int s, int e){
   if(s>=e){
     return;
@@ -46,10 +46,10 @@ void mergesort(vector<int> &arr,int s, int e){
 
 int main(){
   int s=0;
-  vector<int> arr{10,5,2,0,7,6,4};
+  vector<int> arr{10,5,2,0,7,6,4}; //This is the given Array that is to be sorted.
   int e=arr.size()-1;
   mergesort(arr,s,e);
-  for(int i=0;i<=e;i++){
+  for(int i=0;i<=e;i++){ //This prints all the elements of the sorted Array.
     cout<<arr[i]<<endl;
   }
 }
