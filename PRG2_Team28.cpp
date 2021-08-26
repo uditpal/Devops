@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// Change 1.....
 void merge(vector<int> &arr, int s,int e){
   int i=s;
   int m=(s+e)/2;
@@ -33,7 +33,7 @@ void merge(vector<int> &arr, int s,int e){
   return;
 
 }
-
+// Change 2......
 void mergesort(vector<int> &arr,int s, int e){
   if(s>=e){
     return;
